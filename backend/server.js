@@ -20,11 +20,9 @@ app.get("/", (req, res) => {
   res.send("Backend is running...");
 });
 
-app.get("/", (req, res) => {
-  res.send("Backend is running...");
-});
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, "127.0.0.1", () => {
-  console.log(`Server running at http://127.0.0.1:${PORT}`);
+// 🔥 DO NOT USE 127.0.0.1 on Render
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
