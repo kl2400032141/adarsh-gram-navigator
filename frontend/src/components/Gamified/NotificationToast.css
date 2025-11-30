@@ -1,0 +1,9 @@
+/* src/components/Gamified/NotificationToast.css */
+.toast-root { position:fixed; right:18px; top:18px; display:flex; flex-direction:column; gap:8px; z-index:9999; }
+.toast-item { display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border-radius:10px; background:rgba(255,255,255,0.03); color:#fff; min-width:260px; box-shadow:0 8px 20px rgba(2,6,23,0.6); }
+.toast-item.success { border-left:4px solid #34d399; }
+.toast-item.error { border-left:4px solid #ef4444; }
+.toast-item.info { border-left:4px solid #60a5fa; }
+.toast-icon { font-size:18px; margin-top:2px; }
+.toast-title { font-weight:800; }
+.toast-msg { font-size:13px; color:#aeb8c7; }

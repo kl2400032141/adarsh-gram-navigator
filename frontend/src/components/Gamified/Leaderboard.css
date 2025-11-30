@@ -1,0 +1,10 @@
+/* src/components/Gamified/Leaderboard.css */
+.leader-root { background: linear-gradient(180deg,#031226,#062238); padding:12px; border-radius:12px; color:#fff; width:320px; }
+.leader-title { margin:0 0 8px 0; font-size:18px; }
+.leader-row { display:flex; justify-content:space-between; align-items:center; padding:8px 6px; border-radius:8px; margin-bottom:8px; background:rgba(255,255,255,0.02); }
+.leader-left { display:flex; gap:10px; align-items:center; }
+.leader-rank { width:36px; font-weight:800; text-align:center; }
+.leader-avatar { width:44px; height:44px; border-radius:8px; object-fit:cover; }
+.leader-name { font-weight:700; }
+.leader-sub { font-size:12px; color:#94a3b8; }
+.leader-delta { color:#34d399; font-weight:800; }

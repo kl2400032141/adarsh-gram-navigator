@@ -1,0 +1,10 @@
+/* src/components/Gamified/LevelBadge.css */
+.lvl-badge {
+  padding: 6px 10px;
+  border-radius: 18px;
+  color: #07122a;
+  font-weight: 800;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.45);
+  display:inline-block;
+}
+.lvl-text { font-size: 13px; letter-spacing: .6px; text-transform: uppercase; }
